@@ -1,7 +1,17 @@
 body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
     text-align: center;
     background-color: #2c2f33;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;    
+}
+
+h1 {
+    color: #fff;
 }
 
 .container {
@@ -16,7 +26,6 @@ body {
     border-radius: 4px;
     height: 575px;
     width: 575px;
-    
 }
 
 .square {
@@ -26,12 +35,46 @@ body {
 .color {
     background-color: gray;
     border: 1px solid black;
-  }
+}
 
 .controls {
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 20px;
-    gap: 8px;
+    gap: 20px;
+}
+
+button {
+    border-radius: 28px;
+    border-color: #2c2f33;
+    font-size: 14px;
+    padding: 8px 16px;
+    background-color: #fff;
+}
+#range {
+    -webkit-appearance: none;
+    background: #fff;
+    border-radius: 50px;
+    width: 100px;
+}
+
+#rangevalue {
+    font-size: 20px;
+    padding-left: 10px;
+    color: #fff;
+}
+
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    bottom: 0;
+    padding-top: 50px;
+}
+a {
+    color: #fff;
+
 }
