@@ -1,0 +1,37 @@
+body {
+    text-align: center;
+    background-color: #2c2f33;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;    
+}
+
+.container {
+    margin-top: 25px;
+    margin-right: 40px;
+    display: inline-grid;
+    grid-template-columns: repeat(16, 2fr);
+    grid-template-rows: repeat(16, 2fr);
+    background-color: #AAAAAA;
+    border: solid #FF5E5B;
+    border-width: 40px;
+    border-radius: 4px;
+    height: 575px;
+    width: 575px;
+    
+}
+
+.square {
+    background-color: white;
+    border: 1px solid black;
+}
+.color {
+    background-color: gray;
+    border: 1px solid black;
+  }
+
+.controls {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    gap: 8px;
+}
